@@ -23,4 +23,3 @@ summary(lm_model)
 ggplot(customers, aes(x = total_orders, y = avg_spend_per_order))+ geom_point(color = "blue") + geom_smooth(method = "lm", se = FALSE, color = "red") 
 +labs(title = "Linear Regression: CLV Prediction", x = "Total Orders", y = "Average Spend per Order") 
 + theme_minimal()
-
